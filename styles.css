@@ -141,7 +141,23 @@ hr{
     width: 430px;
     height: 550px;
 }
-
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.h1{
+    margin: 10px;
+    font-size: 40px;
+}
+.p{
+    margin: 20px;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
 footer{
     text-align: center;
     color: white;
@@ -149,4 +165,44 @@ footer{
     padding: 30px 0px 30px 0px;
     line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.Alfred{
+    background-image: url(images/PXL_20231016_122652857.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 20px;
+    display: block !important;
+    margin: 20px;
+}
+
+.Qualités{
+    border: solid 1px #0d204d;
+    align-self: flex-end;
+    display: block !important;
+    width: 50% !important;
+    padding: 5px;
+    margin-left: 50%;
+}
+
+.Qualités h4{
+    text-decoration: underline;
+    color: green;
+}
+
+.défauts{
+    border: solid 1px #0d204d;
+    align-self: flex-end;
+    display: block !important;
+    width: 50% !important;
+    padding: 5px;
+    margin-left: 50%;
+}
+
+.défauts h4{
+    text-decoration: underline;
+    color: orange;
 }
